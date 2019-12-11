@@ -3,7 +3,7 @@
 * JIT: The Benefit __just-in-time (JIT)__ is the same code runs everywhere because of the CLR compile process.  
 * AoT: This compiles C# code to native CPU instructions __ahead of time (AoT)__ rather than using the CLR to compile IL code. This improves execution speed and reduces thememory fottprint for applications because the native code is generated at build time and then deployed instead of the IL code. 
   
-![IL UML diagram](https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/IL.png)  
+![IL UML diagram](https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/understanding%20intermediate%20language.png)  
     
 **Q2.** What do you type at the prompt to create a console app?  
 **A2.** `dotnet new console`  
