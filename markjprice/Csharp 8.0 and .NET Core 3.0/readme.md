@@ -13,19 +13,31 @@
 **A4.** Windows Ctrl + (single-quote)
 
 **Q5.** Is Visual Studio 2019 better than Visual Studio Code?  
-**A5.** `VSCode is the most modern and lightwight code editor to choose, and the only one from Microsoft that is cross-platform. VS2019 only runs on Windows.`  
+**A5.**  
+* VSCode is the most modern and lightwight code editor to choose, and the only one from Microsoft that is cross-platform. Cannot build Windows and mobile apps.  
+* VS only runs on Windows. The only MS developer tool that can create Windoes Desktop and mobile apps.   
 
 **Q6.** Is .NET Core better the .NET Framework?  
-**A6.** 
+**A6.** Each has strengths and weaknesses because they are all designed for diferent scenarios. As of 2019 .NET is three forked .NET platforms
+1. .NET Core: for cross-platform and new apps.
+2. .NET Framework: for legacy apps.
+3. Xamarin: for mobile apps.
 
 **Q7.** What is .NET Standard and why is it important?  
 **A7.** 
+* .NET Standard is just a standard. You cannot install it. To use it you must install a .NET platform that implements the minimum specification for a set of APIs that all .NET plaforms can implement. Basic support is indicated by a platform being compliant with .NET Standard 1.4.
 
 **Q8.** What is the name of the entry point method of a .NET console application and how should it be declared?  
-**A8.** 
+**A8.** The entry point of a C# app must be named Main. Is should be decaled as follows: 
+```c#
+static void Main(string{} args)  
+```  
 
 **Q9.** Where would you look for help about a C# keyword?  
-**A9.** 
+**A9.** The most useful keyboard shortcut in VSCode is _F12_ to __Go To Definition__. This will show what the public definition of the type or member looks like by reading the metadata in the compiled assembly. ILSpy .NET Decompiler will even reverse-engineer from the metadata and IL code back into C# for you. 
 
 **Q10.** Where would you look for solutions to common programming problems?  
-**A10.** 
+**A10.** __Stack Overflow__ is the most popular third-party website for getting answers to difficult programming questions. It's so popular that search engines such as __DuckDuckGo__ have a special way to write a query to search the site. 
+```DuckDuckGo
+!so securestring
+```
