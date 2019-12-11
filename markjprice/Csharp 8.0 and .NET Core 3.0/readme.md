@@ -1,5 +1,5 @@
-__Chapter 01 Hello, C#! Welcome, .NET!__  
-  
+<b><ins>Chapter 01 Hello, C#! Welcome, .NET!</ins></b>
+   
 Exercise:  
 **Q1.** Why can a programmer use different languages, for example, C# and F#, to write applications that run on .NET Core?  
 **A1.** Page 14. Source code is converted to a common assembler type code, **Intermediate Language (IL)**, in a DLL or EXE file. The .NET Core virtual machine, CoreCLR (Common Language Runtime), shares the same assembler code. 
@@ -46,5 +46,5 @@ static void Main(string{} args)
 ```DuckDuckGo
 !so securestring
 ```
-
-__Chapter 0Speaking C#__  
+  
+<b><ins>Chapter 02 Speaking C#</span></ins></b>   
