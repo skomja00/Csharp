@@ -2,8 +2,11 @@
    
 Exercise:  
 **Q1.** Why can a programmer use different languages, for example, C# and F#, to write applications that run on .NET Core?  
-**A1.** Page 14. Source code is converted to a common assembler type code, **Intermediate Language (IL)**, in a DLL or EXE file. The .NET Core virtual machine, CoreCLR (Common Language Runtime), shares the same assembler code. 
-* JIT: The benefit of __just-in-time (JIT)__ is the same code runs everywhere because of the CLR compile process.  
+**A1.** The compiler used by the _dotnet_ CLI tool converts you source code into **Intermediate Language (IL)** code and stores the IL in an assembly (a DLL or EXE file). IL code statements are like assembly language instructions, which are executed by .NET Core's virtrual machine, known as CoreCLR **Common Language Runtime (CLR)**.  **<ins>Regardless of source language all .NET applications use IL code for their instructions stored in an assembly.</ins>**  
+1. At runtime, the CLR loads the IL, 
+2. **just-in-time (JIT)** compiles it into native CPU instructions, 
+3. and then they are executed by the CPU on that machine.    
+* JIT: The benefit of __just-in-time (JIT)__ is the same code runs everywhere because of the 2nd CLR compile process.  
 * AoT: .NET Native compiles C# code to native CPU instructions __ahead-of-time (AoT)__ rather than using the CLR to compile IL code. This improves execution speed and reduces the memory footprint for applications because the native code is generated at build time and then deployed instead of the IL code. 
   
 ![IL UML diagram](https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/understanding%20intermediate%20language.png)  
