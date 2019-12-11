@@ -30,7 +30,7 @@
 * .NET Standard is just a standard. You cannot install it. To use it you must install a .NET platform that implements the minimum specification for a set of APIs that all .NET plaforms can implement. Basic support is indicated by a platform being compliant with .NET Standard 1.4.
 
 **Q8.** What is the name of the entry point method of a .NET console application and how should it be declared?  
-**A8.** The entry point of a C# app must be named Main. Is should be decaled as follows: 
+**A8.** The entry point of a C# app must be named Main. Is should be declared as follows: 
 ```c#
 static void Main(string{} args)  
 ```  
