@@ -52,8 +52,10 @@ WriteLine($"{"ulong", -8}{sizeof(ulong), -2:D}{ulong.MinValue, 33:F0}{ulong.MaxV
 WriteLine($"{"float", -8}{sizeof(float), -2:D}{float.MinValue, 33:E7}{float.MaxValue, 31:E7}");
 ```  
   
+  
 Namespace:  
 Namespace.Type.Method  (i.e. System.Console.Writeln)  
+  
   
 <table>
 <tr>
@@ -115,6 +117,28 @@ Namespace.Type.Method  (i.e. System.Console.Writeln)
     <td></td>
     <td>double</td>
 </tr>
-</tbody>
+<tr>
+    <td>boolean</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td>true | false</td>
+    <td></td>
+</tr>
+<tr>
+    <td>generics</td>
+    <td></td>
+    <td></td>
+<tr>
+    <td>object type deprecated</td>
+    <td></td>
+    <td></td>
+<tr>
+    <td>dynamic type deprecated</td>
+    <td></td>
+    <td></td>
+</tr>
 </table> 
 
