@@ -136,9 +136,6 @@ Namespace.Type.Method  (i.e. System.Console.Writeln)
     <td>generics</td>
     <td>object type deprecated</td>
     <td>dynamic type deprecated</td>
-<tr>
-    <td>object type deprecated</td>
-    <td></td>
-    <td></td>
+</tr>
 </table> 
 
