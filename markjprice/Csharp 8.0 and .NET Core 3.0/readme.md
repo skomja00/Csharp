@@ -55,23 +55,7 @@ WriteLine($"{"float", -8}{sizeof(float), -2:D}{float.MinValue, 33:E7}{float.MaxV
 Namespace:  
 Namespace.Type.Method  (i.e. System.Console.Writeln)  
   
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
 <table>
-<tbody>
 <tr>
   <td colspan="3">Working with variables</td>
 </tr>
