@@ -134,6 +134,3 @@ tr:nth-child(even) {
 </tbody>
 </table> 
 
-**Qn.**  
-**An.**  
-  
