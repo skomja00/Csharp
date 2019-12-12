@@ -1,0 +1,11 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Formatting\obj\Debug\netcoreapp3.1\Formatting.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Formatting\obj\Debug\netcoreapp3.1\Formatting.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Formatting\obj\Debug\netcoreapp3.1\Formatting.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Formatting\bin\Debug\netcoreapp3.1\Formatting.exe
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Formatting\bin\Debug\netcoreapp3.1\Formatting.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Formatting\bin\Debug\netcoreapp3.1\Formatting.runtimeconfig.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Formatting\bin\Debug\netcoreapp3.1\Formatting.runtimeconfig.dev.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Formatting\bin\Debug\netcoreapp3.1\Formatting.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Formatting\bin\Debug\netcoreapp3.1\Formatting.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Formatting\obj\Debug\netcoreapp3.1\Formatting.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Formatting\obj\Debug\netcoreapp3.1\Formatting.pdb

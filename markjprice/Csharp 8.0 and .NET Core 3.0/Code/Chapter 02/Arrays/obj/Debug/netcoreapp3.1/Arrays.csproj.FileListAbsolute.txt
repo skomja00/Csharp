@@ -1,0 +1,11 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Arrays\bin\Debug\netcoreapp3.1\Arrays.exe
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Arrays\bin\Debug\netcoreapp3.1\Arrays.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Arrays\bin\Debug\netcoreapp3.1\Arrays.runtimeconfig.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Arrays\bin\Debug\netcoreapp3.1\Arrays.runtimeconfig.dev.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Arrays\bin\Debug\netcoreapp3.1\Arrays.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Arrays\bin\Debug\netcoreapp3.1\Arrays.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Arrays\obj\Debug\netcoreapp3.1\Arrays.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Arrays\obj\Debug\netcoreapp3.1\Arrays.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Arrays\obj\Debug\netcoreapp3.1\Arrays.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Arrays\obj\Debug\netcoreapp3.1\Arrays.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Arrays\obj\Debug\netcoreapp3.1\Arrays.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "W:\\Documents\\source\\Csharp\\markjprice\\Csharp 8.0 and .NET Core 3.0\\Code\\Chapter 02\\Numbers\\Numbers.csproj": {}
+    "W:\\Documents\\source\\Csharp\\markjprice\\Csharp 8.0 and .NET Core 3.0\\Code\\Chapter 02\\numbers\\Numbers.csproj": {}
   },
   "projects": {
-    "W:\\Documents\\source\\Csharp\\markjprice\\Csharp 8.0 and .NET Core 3.0\\Code\\Chapter 02\\Numbers\\Numbers.csproj": {
+    "W:\\Documents\\source\\Csharp\\markjprice\\Csharp 8.0 and .NET Core 3.0\\Code\\Chapter 02\\numbers\\Numbers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\Documents\\source\\Csharp\\markjprice\\Csharp 8.0 and .NET Core 3.0\\Code\\Chapter 02\\Numbers\\Numbers.csproj",
+        "projectUniqueName": "W:\\Documents\\source\\Csharp\\markjprice\\Csharp 8.0 and .NET Core 3.0\\Code\\Chapter 02\\numbers\\Numbers.csproj",
         "projectName": "Numbers",
-        "projectPath": "W:\\Documents\\source\\Csharp\\markjprice\\Csharp 8.0 and .NET Core 3.0\\Code\\Chapter 02\\Numbers\\Numbers.csproj",
+        "projectPath": "W:\\Documents\\source\\Csharp\\markjprice\\Csharp 8.0 and .NET Core 3.0\\Code\\Chapter 02\\numbers\\Numbers.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "W:\\Documents\\source\\Csharp\\markjprice\\Csharp 8.0 and .NET Core 3.0\\Code\\Chapter 02\\Numbers\\obj\\",
+        "outputPath": "W:\\Documents\\source\\Csharp\\markjprice\\Csharp 8.0 and .NET Core 3.0\\Code\\Chapter 02\\numbers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

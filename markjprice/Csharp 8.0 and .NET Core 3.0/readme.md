@@ -1,26 +1,15 @@
 <b><ins>Chapter 01 Hello, C#! Welcome, .NET!</ins></b>
-   
-Exercise:  
+<b><ins>Notes:</b></ins>
+  
 **Q1.** Why can a programmer use different languages, for example, C# and F#, to write applications that run on .NET Core?  
-**A1.** Page 14. Source code is converted to a common assembler type code, **Intermediate Language (IL)**, in a DLL or EXE file. The .NET Core virtual machine, CoreCLR (Common Language Runtime), shares the same assembler code. 
-* JIT: The benefit of __just-in-time (JIT)__ is the same code runs everywhere because of the CLR compile process.  
+**A1.** The compiler used by the _dotnet_ CLI tool converts you source code into **Intermediate Language (IL)** code and stores the IL in an assembly (a DLL or EXE file). IL code statements are like assembly language instructions, which are executed by .NET Core's virtrual machine, known as CoreCLR **Common Language Runtime (CLR)**.  **<ins>Regardless of source language all .NET applications use IL code for their instructions stored in an assembly.</ins>**  
+1. At runtime, the CLR loads the IL, 
+2. **just-in-time (JIT)** compiles it into native CPU instructions, 
+3. and then they are executed by the CPU on that machine.    
+* JIT: The benefit of __just-in-time (JIT)__ is the same code runs everywhere because of the 2nd CLR compile process.  
 * AoT: .NET Native compiles C# code to native CPU instructions __ahead-of-time (AoT)__ rather than using the CLR to compile IL code. This improves execution speed and reduces the memory footprint for applications because the native code is generated at build time and then deployed instead of the IL code. 
   
 ![IL UML diagram](https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/understanding%20intermediate%20language.png)  
-    
-**Q2.** What do you type at the prompt to create a console app?  
-**A2.** `dotnet new console`  
-
-**Q3.** What do you type at the prompt to build and execute C# source code?  
-**A3.** `dotnet run`
-
-**Q4.** What is the Visual Studio Code keyboard shortcut to view Terminal?  
-**A4.** Windows Ctrl + (single-quote)
-
-**Q5.** Is Visual Studio 2019 better than Visual Studio Code?  
-**A5.**  
-* VSCode is the most modern and lightwight code editor to choose, and the only one from Microsoft that is cross-platform. Cannot build Windows and mobile apps.  
-* VS only runs on Windows. The only MS developer tool that can create Windoes Desktop and mobile apps.   
 
 **Q6.** Is .NET Core better the .NET Framework?  
 **A6.** Each has strengths and weaknesses because they are all designed for diferent scenarios. As of 2019 .NET is three forked .NET platforms
@@ -28,23 +17,123 @@ Exercise:
 2. .NET Framework: for legacy apps.
 3. Xamarin: for mobile apps.
 
-**Q7.** What is .NET Standard and why is it important?  
-**A7.** 
-* .NET Standard is just a standard. You cannot install it. To use it you must install a .NET platform that implements the minimum specification for a set of APIs that all .NET plaforms can implement. Basic support is indicated by a platform being compliant with .NET Standard 1.4.
-
 **Q8.** What is the name of the entry point method of a .NET console application and how should it be declared?  
 **A8.** The entry point of a C# app must be named Main. Is should be declared as follows: 
 ```c#
 static void Main(string{} args)  
 ```  
 
-**Q9.** Where would you look for help about a C# keyword?  
-**A9.** The most useful keyboard shortcut in VSCode is _F12_ to __Go To Definition__. This will show what the public definition of the type or member looks like by reading the metadata in the compiled assembly. ILSpy .NET Decompiler will even reverse-engineer from the metadata and IL code back into C# for you. 
 
-**Q10.** Where would you look for solutions to common programming problems?  
-**A10.** __Stack Overflow__ is the most popular third-party website for getting answers to difficult programming questions. It's so popular that search engines such as __DuckDuckGo__ have a special way to write a query to search the site. 
-```DuckDuckGo
-!so securestring
-```
   
-<b><ins>Chapter 02 Speaking C#</span></ins></b>   
+<b><ins>Chapter 02 Speaking C#</ins></b>  
+<b><ins>Notes:</b></ins> 
+  
+Steps to create new app.  
+1. Create folder  
+2. File | Add Folder to Workspace... (i.e. "folder=project")  
+3. View | Terminal ( Ctrl + ` )  
+4. dotnet new console  
+5. View | Command Palette | Omnisharp Select Project  
+  
+Format strings:
+```C#  
+{ index [ , alignment ] [ : formatString ] }  
+```  
+where  
+index: number of argument starting at 0  
+alignment: +n right align minimum n digits, -n left align min. n digits  
+formatString: C currency format, N0 number with 1000s separators no decimal places, etc...  
+  
+```C#  
+// examples 
+WriteLine($"{"uint", -8}{sizeof(uint), -2:D}{uint.MinValue, 33:D}{uint.MaxValue, 31:D}");
+WriteLine($"{"long", -8}{sizeof(long), -2:D}{long.MinValue, 30}{long.MaxValue, 30}");
+WriteLine($"{"ulong", -8}{sizeof(ulong), -2:D}{ulong.MinValue, 33:F0}{ulong.MaxValue, 31:F0}");
+WriteLine($"{"float", -8}{sizeof(float), -2:D}{float.MinValue, 33:E7}{float.MaxValue, 31:E7}");
+```  
+  
+Namespace:  
+Namespace.Type.Method  (i.e. System.Console.Writeln)  
+  
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<table>
+<tbody>
+<tr>
+  <td colspan="3">Working with variables</td>
+</tr>
+<tr>
+    <td colspan="3">text</td>
+</tr>
+<tr>
+    <td>&nbsp;</td>
+    <td>char</td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td>string</td>
+    <td></td>
+</tr>
+<tr>
+    <td colspan="3">numbers</td>
+</tr>
+<tr>
+    <td></td>
+    <td>whole</td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>int</td>
+<tr>
+    <td></td>
+    <td></td>
+    <td>long</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>short</td>
+</tr>
+</tr>
+<tr>
+    <td></td>
+    <td>real</td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>decimal (comparable)</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>float</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>double</td>
+</tr>
+</tbody>
+</table> 
+
+**Qn.**  
+**An.**  
+  

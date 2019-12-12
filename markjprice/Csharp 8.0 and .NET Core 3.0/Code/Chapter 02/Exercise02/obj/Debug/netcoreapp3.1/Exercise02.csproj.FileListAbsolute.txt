@@ -1,0 +1,11 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Exercise02\obj\Debug\netcoreapp3.1\Exercise02.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Exercise02\obj\Debug\netcoreapp3.1\Exercise02.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Exercise02\obj\Debug\netcoreapp3.1\Exercise02.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Exercise02\bin\Debug\netcoreapp3.1\Exercise02.exe
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Exercise02\bin\Debug\netcoreapp3.1\Exercise02.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Exercise02\bin\Debug\netcoreapp3.1\Exercise02.runtimeconfig.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Exercise02\bin\Debug\netcoreapp3.1\Exercise02.runtimeconfig.dev.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Exercise02\bin\Debug\netcoreapp3.1\Exercise02.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Exercise02\bin\Debug\netcoreapp3.1\Exercise02.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Exercise02\obj\Debug\netcoreapp3.1\Exercise02.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 02\Exercise02\obj\Debug\netcoreapp3.1\Exercise02.pdb
