@@ -53,6 +53,7 @@ formatString:
 * P percent 
 * E7 exponent 7 significant digits
 * etc... (see https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings)
+* Convert.ToString(3, 2).PadLeft(4, '0') // 0011
   
 ```C#  
 // examples 
