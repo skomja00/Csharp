@@ -1,0 +1,11 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Operators\bin\Debug\netcoreapp3.1\Operators.exe
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Operators\bin\Debug\netcoreapp3.1\Operators.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Operators\bin\Debug\netcoreapp3.1\Operators.runtimeconfig.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Operators\bin\Debug\netcoreapp3.1\Operators.runtimeconfig.dev.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Operators\bin\Debug\netcoreapp3.1\Operators.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Operators\bin\Debug\netcoreapp3.1\Operators.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Operators\obj\Debug\netcoreapp3.1\Operators.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Operators\obj\Debug\netcoreapp3.1\Operators.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Operators\obj\Debug\netcoreapp3.1\Operators.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Operators\obj\Debug\netcoreapp3.1\Operators.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Operators\obj\Debug\netcoreapp3.1\Operators.pdb

@@ -1,0 +1,11 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\BitwiseAndShiftOperators\bin\Debug\netcoreapp3.1\BitwiseAndShiftOperators.exe
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\BitwiseAndShiftOperators\bin\Debug\netcoreapp3.1\BitwiseAndShiftOperators.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\BitwiseAndShiftOperators\bin\Debug\netcoreapp3.1\BitwiseAndShiftOperators.runtimeconfig.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\BitwiseAndShiftOperators\bin\Debug\netcoreapp3.1\BitwiseAndShiftOperators.runtimeconfig.dev.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\BitwiseAndShiftOperators\bin\Debug\netcoreapp3.1\BitwiseAndShiftOperators.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\BitwiseAndShiftOperators\bin\Debug\netcoreapp3.1\BitwiseAndShiftOperators.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\BitwiseAndShiftOperators\obj\Debug\netcoreapp3.1\BitwiseAndShiftOperators.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\BitwiseAndShiftOperators\obj\Debug\netcoreapp3.1\BitwiseAndShiftOperators.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\BitwiseAndShiftOperators\obj\Debug\netcoreapp3.1\BitwiseAndShiftOperators.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\BitwiseAndShiftOperators\obj\Debug\netcoreapp3.1\BitwiseAndShiftOperators.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\BitwiseAndShiftOperators\obj\Debug\netcoreapp3.1\BitwiseAndShiftOperators.pdb

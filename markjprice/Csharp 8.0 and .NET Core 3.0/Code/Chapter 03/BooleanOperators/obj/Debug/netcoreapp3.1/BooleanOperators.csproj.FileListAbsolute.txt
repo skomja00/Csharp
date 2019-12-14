@@ -1,0 +1,11 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\booleanoperators\bin\Debug\netcoreapp3.1\BooleanOperators.exe
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\booleanoperators\bin\Debug\netcoreapp3.1\BooleanOperators.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\booleanoperators\bin\Debug\netcoreapp3.1\BooleanOperators.runtimeconfig.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\booleanoperators\bin\Debug\netcoreapp3.1\BooleanOperators.runtimeconfig.dev.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\booleanoperators\bin\Debug\netcoreapp3.1\BooleanOperators.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\booleanoperators\bin\Debug\netcoreapp3.1\BooleanOperators.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\booleanoperators\obj\Debug\netcoreapp3.1\BooleanOperators.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\booleanoperators\obj\Debug\netcoreapp3.1\BooleanOperators.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\booleanoperators\obj\Debug\netcoreapp3.1\BooleanOperators.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\booleanoperators\obj\Debug\netcoreapp3.1\BooleanOperators.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\booleanoperators\obj\Debug\netcoreapp3.1\BooleanOperators.pdb

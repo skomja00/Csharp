@@ -1,0 +1,11 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CastingConverting\bin\Debug\netcoreapp3.1\CastingConverting.exe
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CastingConverting\bin\Debug\netcoreapp3.1\CastingConverting.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CastingConverting\bin\Debug\netcoreapp3.1\CastingConverting.runtimeconfig.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CastingConverting\bin\Debug\netcoreapp3.1\CastingConverting.runtimeconfig.dev.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CastingConverting\bin\Debug\netcoreapp3.1\CastingConverting.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CastingConverting\bin\Debug\netcoreapp3.1\CastingConverting.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CastingConverting\obj\Debug\netcoreapp3.1\CastingConverting.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CastingConverting\obj\Debug\netcoreapp3.1\CastingConverting.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CastingConverting\obj\Debug\netcoreapp3.1\CastingConverting.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CastingConverting\obj\Debug\netcoreapp3.1\CastingConverting.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CastingConverting\obj\Debug\netcoreapp3.1\CastingConverting.pdb

@@ -1,0 +1,11 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\IterationStatements\bin\Debug\netcoreapp3.1\IterationStatements.exe
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\IterationStatements\bin\Debug\netcoreapp3.1\IterationStatements.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\IterationStatements\bin\Debug\netcoreapp3.1\IterationStatements.runtimeconfig.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\IterationStatements\bin\Debug\netcoreapp3.1\IterationStatements.runtimeconfig.dev.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\IterationStatements\bin\Debug\netcoreapp3.1\IterationStatements.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\IterationStatements\bin\Debug\netcoreapp3.1\IterationStatements.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\IterationStatements\obj\Debug\netcoreapp3.1\IterationStatements.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\IterationStatements\obj\Debug\netcoreapp3.1\IterationStatements.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\IterationStatements\obj\Debug\netcoreapp3.1\IterationStatements.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\IterationStatements\obj\Debug\netcoreapp3.1\IterationStatements.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\IterationStatements\obj\Debug\netcoreapp3.1\IterationStatements.pdb
