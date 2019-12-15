@@ -139,15 +139,7 @@ Namespace.Type.Method  (i.e. System.Console.Writeln)
 <tr>
     <td>generics</td>
     <td></td>
-    <td>object type deprecated<br>
-	    dynamic type deprecated</td>
-    <td>true | false</td>
-    <td></td>
-</tr>
-<tr>
-    <td>generics</td>
-    <td>object type deprecated</td>
-    <td>dynamic type deprecated</td>
+    <td>object type deprecated<br>dynamic type deprecated</td>
 </tr>
 </table> 
 
