@@ -1,0 +1,11 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\HandlingExceptions\bin\Debug\netcoreapp3.1\HandlingExceptions.exe
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\HandlingExceptions\bin\Debug\netcoreapp3.1\HandlingExceptions.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\HandlingExceptions\bin\Debug\netcoreapp3.1\HandlingExceptions.runtimeconfig.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\HandlingExceptions\bin\Debug\netcoreapp3.1\HandlingExceptions.runtimeconfig.dev.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\HandlingExceptions\bin\Debug\netcoreapp3.1\HandlingExceptions.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\HandlingExceptions\bin\Debug\netcoreapp3.1\HandlingExceptions.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\HandlingExceptions\obj\Debug\netcoreapp3.1\HandlingExceptions.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\HandlingExceptions\obj\Debug\netcoreapp3.1\HandlingExceptions.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\HandlingExceptions\obj\Debug\netcoreapp3.1\HandlingExceptions.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\HandlingExceptions\obj\Debug\netcoreapp3.1\HandlingExceptions.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\HandlingExceptions\obj\Debug\netcoreapp3.1\HandlingExceptions.pdb

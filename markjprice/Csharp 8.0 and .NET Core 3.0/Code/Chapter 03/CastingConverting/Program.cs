@@ -56,26 +56,40 @@ namespace CastingConverting
             // object me = new object();
             // WriteLine(me.ToString());
 
-        //     // allocate array of 128 bytes
-        //     byte[] binaryObject = new byte[128];
-        //    // populate array with random bytes
-        //    (new Random()).NextBytes(binaryObject);
-        //    WriteLine("Binary object as bytes:");
-        //    for (int index = 0; index < binaryObject.Length; index++)
-        //    {
-        //        Write($"{binaryObject[index]:X}");
-        //    } 
-        //    WriteLine();
-        //    // convert to Base64 string and output as text
-        //    string encoded = Convert.ToBase64String(binaryObject);
-        //    WriteLine($"Binary Object as Base64; {encoded}");
+            //     // allocate array of 128 bytes
+            //     byte[] binaryObject = new byte[128];
+            //    // populate array with random bytes
+            //    (new Random()).NextBytes(binaryObject);
+            //    WriteLine("Binary object as bytes:");
+            //    for (int index = 0; index < binaryObject.Length; index++)
+            //    {
+            //        Write($"{binaryObject[index]:X}");
+            //    } 
+            //    WriteLine();
+            //    // convert to Base64 string and output as text
+            //    string encoded = Convert.ToBase64String(binaryObject);
+            //    WriteLine($"Binary Object as Base64; {encoded}");
 
-        // parsing from strings to numbers or dates and times
-        int age = int.Parse("52");
-        DateTime birthday = DateTime.Parse("1 Janyuary 1968");
-        WriteLine($"I was born {age} years ago.");
-        WriteLine($"My birthday is {birthday}.");
-        WriteLine($"My birthday is {birthday:D}.");
+            // // parsing from strings to numbers or dates and times
+            // int age = int.Parse("52");
+            // DateTime birthday = DateTime.Parse("1 Janyuary 1968");
+            // WriteLine($"I was born {age} years ago.");
+            // WriteLine($"My birthday is {birthday}.");
+            // WriteLine($"My birthday is {birthday:D}.");
+            // }
+
+            // avoiding exceptions using the TryParse method
+            Write("How many eggs are there? ");
+            int count;
+            string input = Console.ReadLine();
+            if (int.TryParse(input, out count))
+            {
+                WriteLine($"There are {count} eggs.");
+            }
+            else
+            {
+                WriteLine("I cound not parse the input.");
+            }
         }
     }
 }
