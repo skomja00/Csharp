@@ -45,6 +45,7 @@ Format strings:
 where  
 index: number of argument starting at 0  
 alignment: +n right align minimum n digits, -n left align min. n digits  
+<<<<<<< HEAD
 formatString:
 * format codes: 
   * C currency format   
@@ -56,6 +57,17 @@ formatString:
   * E7 exponent 7 significant digits
   * etc... (see https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings)
   * Convert.ToString(3, 2).PadLeft(4, '0') // 0011
+=======
+formatString: 
+* C currency format   
+* N0 number with 1000s separators no decimal places, etc...  
+* F0 fixed point  
+* D decimal  
+* P percent 
+* E7 exponent 7 significant digits
+* etc... (see https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings)
+* Convert.ToString(3, 2).PadLeft(4, '0') // 0011
+>>>>>>> 1f10d66c6c25a36f459d794b630a21a874bca00d
   
 ```C#  
 // examples 
@@ -132,6 +144,7 @@ Namespace.Type.Method  (i.e. System.Console.Writeln)
 </tr>
 <tr>
     <td>boolean</td>
+<<<<<<< HEAD
     <td></td>
     <td>true | false</td>
 </tr>
@@ -140,6 +153,15 @@ Namespace.Type.Method  (i.e. System.Console.Writeln)
     <td></td>
     <td>object type deprecated<br>
 	    dynamic type deprecated</td>
+=======
+    <td>true | false</td>
+    <td></td>
+</tr>
+<tr>
+    <td>generics</td>
+    <td>object type deprecated</td>
+    <td>dynamic type deprecated</td>
+>>>>>>> 1f10d66c6c25a36f459d794b630a21a874bca00d
 </tr>
 </table> 
 
