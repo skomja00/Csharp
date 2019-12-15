@@ -1,5 +1,7 @@
-<b><ins>Chapter 01 Hello, C#! Welcome, .NET!</ins></b>
+<b><ins>Chapter 01 Hello, C#! Welcome, .NET!</ins></b>  
 <b><ins>Notes:</b></ins>
+  
+  
   
 **Q1.** Why can a programmer use different languages, for example, C# and F#, to write applications that run on .NET Core?  
 **A1.** The compiler used by the _dotnet_ CLI tool converts you source code into **Intermediate Language (IL)** code and stores the IL in an assembly (a DLL or EXE file). IL code statements are like assembly language instructions, which are executed by .NET Core's virtrual machine, known as CoreCLR **Common Language Runtime (CLR)**.  **<ins>Regardless of source language all .NET applications use IL code for their instructions stored in an assembly.</ins>**  
@@ -26,9 +28,10 @@ static void Main(string{} args)
 
   
 <b><ins>Chapter 02 Speaking C#</ins></b>  
-<b><ins>Notes:</b></ins> 
+<b><ins>Notes:</b></ins>
   
-Steps to create new app.  
+  
+  Steps to create new app.  
 1. Create folder  
 2. File | Add Folder to Workspace... (i.e. "folder=project")  
 3. View | Terminal ( Ctrl + ` )  
@@ -42,7 +45,17 @@ Format strings:
 where  
 index: number of argument starting at 0  
 alignment: +n right align minimum n digits, -n left align min. n digits  
-formatString: C currency format, N0 number with 1000s separators no decimal places, etc...  
+formatString:
+* format codes: 
+  * C currency format   
+  * N0 number with 1000s separators no decimal places, etc...  
+  * F0 fixed point  
+  * D decimal  
+  * P percent
+  * X hexadecimal
+  * E7 exponent 7 significant digits
+  * etc... (see https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings)
+  * Convert.ToString(3, 2).PadLeft(4, '0') // 0011
   
 ```C#  
 // examples 
@@ -52,26 +65,12 @@ WriteLine($"{"ulong", -8}{sizeof(ulong), -2:D}{ulong.MinValue, 33:F0}{ulong.MaxV
 WriteLine($"{"float", -8}{sizeof(float), -2:D}{float.MinValue, 33:E7}{float.MaxValue, 31:E7}");
 ```  
   
+  
 Namespace:  
 Namespace.Type.Method  (i.e. System.Console.Writeln)  
   
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
+  
 <table>
-<tbody>
 <tr>
   <td colspan="3">Working with variables</td>
 </tr>
@@ -79,14 +78,14 @@ tr:nth-child(even) {
     <td colspan="3">text</td>
 </tr>
 <tr>
-    <td>&nbsp;</td>
-    <td>char</td>
     <td></td>
+    <td></td>
+    <td>char</td>
 </tr>
 <tr>
     <td></td>
-    <td>string</td>
     <td></td>
+    <td>string</td>
 </tr>
 <tr>
     <td colspan="3">numbers</td>
@@ -131,6 +130,16 @@ tr:nth-child(even) {
     <td></td>
     <td>double</td>
 </tr>
-</tbody>
+<tr>
+    <td>boolean</td>
+    <td></td>
+    <td>true | false</td>
+</tr>
+<tr>
+    <td>generics</td>
+    <td></td>
+    <td>object type deprecated<br>
+	    dynamic type deprecated</td>
+</tr>
 </table> 
 
