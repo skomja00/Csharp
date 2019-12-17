@@ -1,0 +1,11 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CheckingForOverflow\obj\Debug\netcoreapp3.1\CheckingForOverflow.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CheckingForOverflow\obj\Debug\netcoreapp3.1\CheckingForOverflow.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CheckingForOverflow\obj\Debug\netcoreapp3.1\CheckingForOverflow.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CheckingForOverflow\bin\Debug\netcoreapp3.1\CheckingForOverflow.exe
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CheckingForOverflow\bin\Debug\netcoreapp3.1\CheckingForOverflow.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CheckingForOverflow\bin\Debug\netcoreapp3.1\CheckingForOverflow.runtimeconfig.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CheckingForOverflow\bin\Debug\netcoreapp3.1\CheckingForOverflow.runtimeconfig.dev.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CheckingForOverflow\bin\Debug\netcoreapp3.1\CheckingForOverflow.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CheckingForOverflow\bin\Debug\netcoreapp3.1\CheckingForOverflow.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CheckingForOverflow\obj\Debug\netcoreapp3.1\CheckingForOverflow.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\CheckingForOverflow\obj\Debug\netcoreapp3.1\CheckingForOverflow.pdb

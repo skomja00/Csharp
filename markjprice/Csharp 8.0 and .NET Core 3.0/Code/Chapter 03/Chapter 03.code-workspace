@@ -20,6 +20,18 @@
 		},
 		{
 			"path": "HandlingExceptions"
+		},
+		{
+			"path": "CheckingForOverflow"
+		},
+		{
+			"path": "Exercise31"
+		},
+		{
+			"path": "Exercise03"
+		},
+		{
+			"path": "Exercise04"
 		}
 	],
 	"settings": {}

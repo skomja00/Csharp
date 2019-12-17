@@ -110,6 +110,11 @@ Namespace.Type.Method  (i.e. System.Console.Writeln)
     <td></td>
     <td>short</td>
 </tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>byte represents unsigned integers with values from 0 to 255</td>
+</tr>
 </tr>
 <tr>
     <td></td>
@@ -139,7 +144,32 @@ Namespace.Type.Method  (i.e. System.Console.Writeln)
 <tr>
     <td>generics</td>
     <td></td>
-    <td>object type deprecated<br>dynamic type deprecated</td>
+    <td>object | dynamic types deprecated</td>
 </tr>
-</table> 
-
+</table>  
+  
+  
+  
+<b><ins>Chapter 03 Controlling Flow and Converting Types</ins></b>  
+<b><ins>Notes:</b></ins>  
+  
+**Jump statements**  
+```C#
+break // break statement terminates the closest enclosing loop or switch   
+```    
+  
+```C#  
+continue // statements between continue and end of the code block body are skipped  
+```      
+```C#  
+return // terminates execution of the method in which it appears and returns control to the calling method.
+```     
+  
+  
+** foreach **  
+1.  GetEnumerator() method that returns an object
+2.  returned object must have a read-only property named Current
+3.  must define MoveNext() method returning true if more items or false otherwise  
+  
+  
+    

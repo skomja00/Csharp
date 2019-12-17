@@ -1,0 +1,11 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Exercise04\bin\Debug\netcoreapp3.1\Exercise04.exe
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Exercise04\bin\Debug\netcoreapp3.1\Exercise04.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Exercise04\bin\Debug\netcoreapp3.1\Exercise04.runtimeconfig.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Exercise04\bin\Debug\netcoreapp3.1\Exercise04.runtimeconfig.dev.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Exercise04\bin\Debug\netcoreapp3.1\Exercise04.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Exercise04\bin\Debug\netcoreapp3.1\Exercise04.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Exercise04\obj\Debug\netcoreapp3.1\Exercise04.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Exercise04\obj\Debug\netcoreapp3.1\Exercise04.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Exercise04\obj\Debug\netcoreapp3.1\Exercise04.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Exercise04\obj\Debug\netcoreapp3.1\Exercise04.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 03\Exercise04\obj\Debug\netcoreapp3.1\Exercise04.pdb
