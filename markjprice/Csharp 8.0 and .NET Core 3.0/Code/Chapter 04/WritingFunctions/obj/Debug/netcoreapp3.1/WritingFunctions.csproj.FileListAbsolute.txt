@@ -1,0 +1,11 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\WritingFunctions\bin\Debug\netcoreapp3.1\WritingFunctions.exe
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\WritingFunctions\bin\Debug\netcoreapp3.1\WritingFunctions.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\WritingFunctions\bin\Debug\netcoreapp3.1\WritingFunctions.runtimeconfig.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\WritingFunctions\bin\Debug\netcoreapp3.1\WritingFunctions.runtimeconfig.dev.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\WritingFunctions\bin\Debug\netcoreapp3.1\WritingFunctions.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\WritingFunctions\bin\Debug\netcoreapp3.1\WritingFunctions.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\WritingFunctions\obj\Debug\netcoreapp3.1\WritingFunctions.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\WritingFunctions\obj\Debug\netcoreapp3.1\WritingFunctions.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\WritingFunctions\obj\Debug\netcoreapp3.1\WritingFunctions.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\WritingFunctions\obj\Debug\netcoreapp3.1\WritingFunctions.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\WritingFunctions\obj\Debug\netcoreapp3.1\WritingFunctions.pdb

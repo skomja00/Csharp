@@ -7,22 +7,22 @@ namespace Exercise04
     {
         static void Main(string[] args)
         {
-            // try
-            // {
-            //     Write("Enter a number between 0 and 255: ");
-            //     byte n1 = byte.Parse(ReadLine());
-            //     Write("Enter another number between 0 and 255: ");
-            //     byte n2 = byte.Parse(ReadLine());
-            //     WriteLine(
-            //         format: "{0} divided by {1} is {2}", 
-            //         n1, 
-            //         n2, 
-            //         n1 / n2);
-            // }
-            // catch
-            // {
-            //     WriteLine("FormatException: Input string was not in a correct format.");
-            // }
+            try
+            {
+                Write("Enter a number between 0 and 255: ");
+                byte n1 = byte.Parse(ReadLine());
+                Write("Enter another number between 0 and 255: ");
+                byte n2 = byte.Parse(ReadLine());
+                WriteLine(
+                    format: "{0} divided by {1} is {2}", 
+                    n1, 
+                    n2, 
+                    n1 / n2);
+            }
+            catch
+            {
+                WriteLine("FormatException: Input string was not in a correct format.");
+            }
 
             int x;
             int y;
