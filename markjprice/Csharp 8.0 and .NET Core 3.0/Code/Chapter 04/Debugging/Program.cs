@@ -1,21 +1,22 @@
 ﻿using System;
 using static System.Console;
+using SharpPad;
+using System.Threading.Tasks;
 
-namespace Debugging
+namespace Dumping 
 {
     class Program
     {
-        static double Add(double a, double b)
+        static async Task Main(string[] args)
         {
-            return a * b;
-        }
-        static void Main(string[] args)
-        {
-            double a = 4.5; // or use var
-            double b = 2.5;
-            double answer = Add(a, b);
-            Console.WriteLine($"{a} + {b} = {answer}");
-            ReadLine(); // wait for the user to press ENTER
+            var complexObject = new
+            {
+                FirstName = "Petr",
+                BirthDate = new DateTime(year: 1972, month: 12, day: 25),
+                Friends = new[] {"Amir", "Geoff", "Sal"}
+            };
+            WriteLine($"Dumping {nameof(complexObject)} to SharpPad.");
+            await complexObject.Dump();
         }
     }
 }

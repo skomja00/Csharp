@@ -9,3 +9,6 @@ W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 
 W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\obj\Debug\netcoreapp3.1\Debugging.AssemblyInfo.cs
 W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\obj\Debug\netcoreapp3.1\Debugging.dll
 W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\obj\Debug\netcoreapp3.1\Debugging.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\bin\Debug\netcoreapp3.1\SharpPad.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\obj\Debug\netcoreapp3.1\Debugging.csproj.CopyComplete
