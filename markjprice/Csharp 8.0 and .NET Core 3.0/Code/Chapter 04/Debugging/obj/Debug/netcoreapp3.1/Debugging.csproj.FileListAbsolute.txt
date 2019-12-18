@@ -1,0 +1,11 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\bin\Debug\netcoreapp3.1\Debugging.exe
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\bin\Debug\netcoreapp3.1\Debugging.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\bin\Debug\netcoreapp3.1\Debugging.runtimeconfig.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\bin\Debug\netcoreapp3.1\Debugging.runtimeconfig.dev.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\bin\Debug\netcoreapp3.1\Debugging.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\bin\Debug\netcoreapp3.1\Debugging.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\obj\Debug\netcoreapp3.1\Debugging.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\obj\Debug\netcoreapp3.1\Debugging.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\obj\Debug\netcoreapp3.1\Debugging.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\obj\Debug\netcoreapp3.1\Debugging.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\Debugging\obj\Debug\netcoreapp3.1\Debugging.pdb

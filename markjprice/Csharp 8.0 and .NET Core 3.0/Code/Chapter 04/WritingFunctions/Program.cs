@@ -79,6 +79,9 @@ namespace WritingFunctions
             }
         }
 
+        /// <summary>Pass a 32-bit integer and it will be converted into its ordinal equivalent.</summary>
+        /// <param name="number">Number is a cardinal value e.g. 1, 2, 3 and so on.</param>
+        /// <returns> Returns as an ordinal value e.g.static 1st, 2nd, 3rd, and so on.</returns>
         static string CardinalToOrdinal(int number)
         {
             switch (number)
@@ -111,11 +114,46 @@ namespace WritingFunctions
             WriteLine();
         }
 
+        static int Factorial(int number) 
+        {
+            if (number < 1)
+            {
+                return 0;
+            }
+            else if (number == 1)
+            {
+                return 1;
+            }
+            else 
+            {
+                return number * Factorial(number - 1);
+            }
+        }
+
+        static void RunFactorial() 
+        {
+            bool isNumber;
+            do
+            {
+                Write("Enter a number: ");
+                isNumber = int.TryParse(ReadLine(), out int number);
+                if (isNumber) 
+                {
+                    WriteLine($"{number:N0}! = {Factorial(number):N0}");
+                }
+                else
+                {
+                    WriteLine("You did not enter a valid number!");
+                }
+            }
+            while (isNumber);
+        }
         static void Main(string[] args)
         {
-            // RunTimesTable();
-            // RunCalculateTax();
-            RunCardinalToOrdinal();
+            //RunTimesTable();
+            //RunCalculateTax();
+            //RunCardinalToOrdinal();
+            //RunFactorial();
         }
     }
 }
