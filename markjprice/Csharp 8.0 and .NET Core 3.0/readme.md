@@ -4,10 +4,7 @@
   border: 3px solid gray;
 }
 </style>
-
-
-
-
+<! ––-------------------------------------------------------->
 <div class="center">
   <b>Chapter 01 Hello, C#! Welcome, .NET!</b>
 </div>
@@ -35,6 +32,7 @@ Both the .NET Core and the .NET Framework have strengths and weaknesses because 
 <br>
 <br>
 <br>
+<! ––-------------------------------------------------------->
 <div class="center">
   <b>Chapter 02 Speaking C#</b>
 </div>
@@ -186,6 +184,7 @@ WriteLine(<br>
 <br>
 <br>
 <br>
+<! ––-------------------------------------------------------->
 <div class="center">
   <b>Chapter 03 Controlling Flow and Converting Types</b>
 </div><br>
@@ -217,3 +216,18 @@ foreach
 	<li>The returned object must have a read-only property named Current
 	<li>The MoveNext() method must return true if more items or false otherwise
 </ol>
+<br>
+<br>
+<br>
+<br>
+<! ––-------------------------------------------------------->
+<div class="center">
+  <b>Chapter 04 Writing, Debugging, and Testing Functions</b>
+</div><br>
+<b>Note: say wha?</b><br>
+<code>dotnet add package Microsoft...</code>
+<code>dotnet run --configuration Release | Debug</code>
+<code>dotnet new classlib</code>
+<code>dotnet new xunit</code>
+<code>dotnet new build</code>
+<code>dotnet new test</code>
