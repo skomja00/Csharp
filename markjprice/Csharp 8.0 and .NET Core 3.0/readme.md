@@ -225,9 +225,9 @@ foreach
   <b>Chapter 04 Writing, Debugging, and Testing Functions</b>
 </div><br>
 <b>Note: say wha?</b><br>
-<code>dotnet add package Microsoft...</code>
-<code>dotnet run --configuration Release | Debug</code>
-<code>dotnet new classlib</code>
-<code>dotnet new xunit</code>
-<code>dotnet new build</code>
-<code>dotnet new test</code>
+<code>dotnet add package Microsoft...</code><br>
+<code>dotnet run --configuration Release | Debug</code><br>
+<code>dotnet new classlib</code><br>
+<code>dotnet new xunit</code><br>
+<code>dotnet new build</code><br>
+<code>dotnet new test</code><br>

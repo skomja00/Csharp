@@ -1,0 +1,8 @@
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\PrimeFactorsLib\bin\Debug\netstandard2.0\PrimeFactorsLib.deps.json
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\PrimeFactorsLib\bin\Debug\netstandard2.0\PrimeFactorsLib.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\PrimeFactorsLib\bin\Debug\netstandard2.0\PrimeFactorsLib.pdb
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\PrimeFactorsLib\obj\Debug\netstandard2.0\PrimeFactorsLib.csprojAssemblyReference.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\PrimeFactorsLib\obj\Debug\netstandard2.0\PrimeFactorsLib.AssemblyInfoInputs.cache
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\PrimeFactorsLib\obj\Debug\netstandard2.0\PrimeFactorsLib.AssemblyInfo.cs
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\PrimeFactorsLib\obj\Debug\netstandard2.0\PrimeFactorsLib.dll
+W:\Documents\source\Csharp\markjprice\Csharp 8.0 and .NET Core 3.0\Code\Chapter 04\PrimeFactorsLib\obj\Debug\netstandard2.0\PrimeFactorsLib.pdb
