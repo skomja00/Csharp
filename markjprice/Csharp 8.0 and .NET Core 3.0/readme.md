@@ -147,7 +147,8 @@ WriteLine(<br>
     <td></td>
     <td></td>
     <td><b>byte</b> Represents unsigned integers with values from 0 to 255</td>
-</tr><tr>
+</tr>
+<tr>
     <td></td>
     <td>real</td>
     <td></td>
@@ -234,7 +235,7 @@ foreach
   <b>Chapter 04 Writing, Debugging, and Testing Functions</b>
 </div><br>
 <b>Note: xUnit.net unit testing</b><br>
-<code>dotnet new xunit</code> Create and navigate to new subfolder (hint: name the folder "test subject class name here"UnitTests), and enter this  command in TERMINAL.  
+<code>dotnet new xunit</code> Create and navigate to new subfolder (hint: name the folder "test subject class name here"UnitTests).
 <ol>
     <li>Add a ProjectReference in the new .csproj configuration test subject file.  Note: may want to rename UnitTest1.cs created by the template to something more meaningful.<br>
         <img src="https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/-test%20subject%20class%20name%20here-UnitTests.csproj.png" alt="..." align="left"></li>
