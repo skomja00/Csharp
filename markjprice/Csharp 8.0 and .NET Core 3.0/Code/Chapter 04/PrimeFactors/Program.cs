@@ -8,17 +8,16 @@ namespace Chapter04
     {
         static void Main(string[] args)
         {
-            int largest = 1000; // limit the largest original number entered
-            string a = new PrimeFactors(largest, 4).Print();
-            string b = new PrimeFactors(largest, 7).Print();
-            string c = new PrimeFactors(largest, 30).Print();
-            string d = new PrimeFactors(largest, 40).Print();
-            string e = new PrimeFactors(largest, 50).Print();
-            WriteLine(a);
-            WriteLine(b);
-            WriteLine(c);
-            WriteLine(d);
-            WriteLine(e);
+            PrimeFactors a = new PrimeFactors(4);
+            PrimeFactors b = new PrimeFactors(7);
+            PrimeFactors c = new PrimeFactors(30);
+            PrimeFactors d = new PrimeFactors(40);
+            PrimeFactors e = new PrimeFactors(50);
+            WriteLine(a.Print());
+            WriteLine(b.Print());
+            WriteLine(c.Print());
+            WriteLine(d.Print());
+            WriteLine(e.Print());
         }
     }
 }

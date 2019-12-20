@@ -1,9 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
 <style>
 .center {
   text-align: center;
-  border: 3px solid gray;
+  border: 3px solid green;
 }
 </style>
+</head>
+<body>
 <! ––-------------------------------------------------------->
 <div class="center">
   <b>Chapter 01 Hello, C#! Welcome, .NET!</b>
@@ -224,10 +229,22 @@ foreach
 <div class="center">
   <b>Chapter 04 Writing, Debugging, and Testing Functions</b>
 </div><br>
-<b>Note: say wha?</b><br>
-<code>dotnet add package Microsoft...</code><br>
-<code>dotnet run --configuration Release | Debug</code><br>
-<code>dotnet new classlib</code><br>
-<code>dotnet new xunit</code><br>
-<code>dotnet new build</code><br>
-<code>dotnet new test</code><br>
+<b>Note: xUnit.net unit testing</b><br>
+<code>dotnet new xunit</code>Create and navigate to new subfolder (hint: name the folder "test subject class name here"UnitTests), and enter this  command in TERMINAL. Add a ProjectReference in the new .csproj configuration test subject file.  Note: may want to rename UnitTest1.cs created by the template to something more meaningful.<br>
+<code>dotnet build</code>Look for a clean build.<br>
+<img src="https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/-test%20subject%20class%20name%20here-UnitTests.png" alt="..." align="left"><br>
+<code>dotnet test</code>After writing unit tests, run the unit tests and see the results. A will-written unit test will have three parts.<br>
+<ol>
+    <li><b>Arrange:</b> This part will declare and instntiate variable for input and output.</li>
+    <li><b>Act:</b> This part will execute the unit that you are testing (i.e. calling the method that we want to test).</li>
+    <li><b>Assert:</b> This part will make one or more assertions about the output. An assertion is a belief that if not true indicates a failed test. For example, when adding 2 and 2 we would expect the result would be 4.</li>
+</ol>
+
+
+
+
+
+
+
+</body>
+</html>

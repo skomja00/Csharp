@@ -5,15 +5,12 @@ namespace PrimeFactorsLib
     /// <summary>Library of methods for the PrimeFactors project.</summary>
     public class PrimeFactors
     {
-        public int largest = 0;
         public int original = 0;
         private int countPrimes = 0;
         public int[] primes = new int[short.MaxValue];
         public int[] primeFactors = new int[short.MaxValue];
-
-        public PrimeFactors(int largest, int original)
+        public PrimeFactors(int original)
         {
-            this.largest = largest;
             this.original = original;
             int index = 0;
             count();
@@ -40,10 +37,12 @@ namespace PrimeFactorsLib
             {
                 result += $"{this.primeFactors[i]}";
                 remainder /= this.primeFactors[i];
-                if (remainder > 1) {
+                if (remainder > 1) 
+                {
                     result += " x ";
                 }
-                if ((remainder % this.primeFactors[i]) != 0) {
+                if ((remainder % this.primeFactors[i]) != 0) 
+                {
                     i++;
                 }
             }
@@ -51,7 +50,7 @@ namespace PrimeFactorsLib
         }
         private void count()
         {
-            for (int i = 2; i <= largest; i++)
+            for (int i = 2; i <= this.original; i++)
             {
                 if (isPrime(i))
                 {
@@ -84,7 +83,7 @@ namespace PrimeFactorsLib
         private void setPrimes()
         {
             int index = 0;
-            for (int i = 2; i <= largest; i++)
+            for (int i = 2; i <= this.original; i++)
             {
                 if (isPrime(i))
                 {

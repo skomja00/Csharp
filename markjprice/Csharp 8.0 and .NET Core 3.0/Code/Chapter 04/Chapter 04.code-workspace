@@ -20,6 +20,9 @@
 		},
 		{
 			"path": "PrimeFactorsLib"
+		},
+		{
+			"path": "PrimeFactorsUnitTests"
 		}
 	],
 	"settings": {}
