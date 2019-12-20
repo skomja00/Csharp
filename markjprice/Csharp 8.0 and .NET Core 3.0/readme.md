@@ -6,6 +6,10 @@
   text-align: center;
   border: 3px solid green;
 }
+.code {
+  text-align: center;
+  border: 3px solid green;
+}
 </style>
 </head>
 <body>
@@ -26,7 +30,7 @@ A programmer can use different languages, for example, C# and F#, to write appli
 ![Homemade IL UML diagram](https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/understanding%20intermediate%20language.png)<br>
 <br>
 <br><br><b>Note:</b><br>
-Both the .NET Core and the .NET Framework have strengths and weaknesses because they are all designed for diferent scenarios. As of 2019 .NET is three forked .NET platforms
+Both the .NET Core and the .NET Framework have strengths and weaknesses because they are all designed for diferent scenarios. As of 2019 ".NET Standard 2.0" branched into three .NET platforms
 <ol>
 	<li>.NET Core: for cross-platform and new apps.
 	<li>.NET Framework: for legacy apps.
@@ -230,10 +234,14 @@ foreach
   <b>Chapter 04 Writing, Debugging, and Testing Functions</b>
 </div><br>
 <b>Note: xUnit.net unit testing</b><br>
-<code>dotnet new xunit</code>Create and navigate to new subfolder (hint: name the folder "test subject class name here"UnitTests), and enter this  command in TERMINAL. Add a ProjectReference in the new .csproj configuration test subject file.  Note: may want to rename UnitTest1.cs created by the template to something more meaningful.<br>
-<code>dotnet build</code>Look for a clean build.<br>
-<img src="https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/-test%20subject%20class%20name%20here-UnitTests.png" alt="..." align="left"><br>
-<code>dotnet test</code>After writing unit tests, run the unit tests and see the results. A will-written unit test will have three parts.<br>
+<code>dotnet new xunit</code> Create and navigate to new subfolder (hint: name the folder "test subject class name here"UnitTests), and enter this  command in TERMINAL.  
+<ol>
+    <li>Add a ProjectReference in the new .csproj configuration test subject file.  Note: may want to rename UnitTest1.cs created by the template to something more meaningful.<br>
+        <img src="https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/-test%20subject%20class%20name%20here-UnitTests.csproj.png" alt="..." align="left"></li>
+	<li><code>dotnet build</code> Look for a clean build.<br>
+        <img src="https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/-test%20subject%20class%20name%20here-UnitTests.png" alt="..." align="left"></li> 
+</ol><br>
+<code>dotnet test</code> After writing unit tests, run the unit tests and see the results. A will-written unit test will have three parts.<br>
 <ol>
     <li><b>Arrange:</b> This part will declare and instntiate variable for input and output.</li>
     <li><b>Act:</b> This part will execute the unit that you are testing (i.e. calling the method that we want to test).</li>
