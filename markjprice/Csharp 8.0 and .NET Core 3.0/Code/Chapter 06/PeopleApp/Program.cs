@@ -66,7 +66,39 @@ namespace PeopleApp
                 WriteLine($"{person.Name}");
             }
 
+            // working with generic types
+            // pre C# 2.0
+            var t1 = new Thing();
+            t1.Data = 42;
+            WriteLine($"Thing with an integer: {t1.Process(42)}");
 
+            var t2 = new Thing();
+            t2.Data = "apple";
+            WriteLine($"Thing with a string: {t2.Process("apple")}");
+
+            // C# 2.0
+            var gt1 = new GenericThing<int>();
+            gt1.Data = 42;
+            WriteLine($"GenericThing with an integer: {gt1.Process(42)}");
+
+            var gt2 = new GenericThing<string>();
+            gt2.Data = "apple";
+            WriteLine($"GenericThing with a string: {gt2.Process("apple")}");
+
+            // working with generic methods
+            string number1 = "4";
+            WriteLine(
+                format: "{0} squared is {1}",
+                arg0: number1,
+                arg1: Squarer.Square<string>(number1)
+            );
+
+            byte number2 = 3;
+            WriteLine(
+                format: "{0} squared is {1}",
+                arg0: number2,
+                arg1: Squarer.Square<byte>(number2)
+            );
         }
         // defining and hanlding delegates
         private static void Harry_Shout(Object sender, EventArgs e)
