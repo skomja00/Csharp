@@ -58,7 +58,7 @@
 		where<br>
 		index: number of argument starting at 0<br>
 		alignment: +n right align minimum n digits, -n left align min. n digits<br>
-		Formatting using interpolated strings:
+		Formatting using interpolated strings:<br>
 			<code><br>// examples  </code><br>
 			<code>WriteLine($"{"long", -8}{sizeof(long), -2:D}{long.MinValue, 30}{long.MaxValue, 30}"); </code><br> 
 			<code>WriteLine($"{"float", -8}{sizeof(float), -2:D}{float.MinValue, 30:E7}{float.MaxValue, 30:E7}");  </code><br>
