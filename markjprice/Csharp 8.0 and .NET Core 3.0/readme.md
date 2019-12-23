@@ -69,7 +69,7 @@
 	<li>
 		Two ways to use formatted strings<br>
 			<code>int a=1,b=2,n=999;</code><br>
-			<code>// formatting using numbered positional arguments  </code><br>
+			<code>// formatting using numbered positional arguments  </code>
 			<code>WriteLine(  </code><br>
 			<code>&nbsp;&nbsp;&nbsp;&nbsp;format: "a={0}, b={1} ... n={2}", // NO $ prefix on the format string!</code><br>  
 			<code>&nbsp;&nbsp;&nbsp;&nbsp;arg0: a,  </code><br>
@@ -77,6 +77,7 @@
 			<code>&nbsp;&nbsp;&nbsp;&nbsp;// ...  </code><br>
 			<code>&nbsp;&nbsp;&nbsp;&nbsp;argn: n  </code><br>
 			<code>);  </code><br>
+			<br>
 			<code>// formatting using interpolated strings  </code><br>
 			<code>WriteLine(  </code><br>
 			<code>&nbsp;&nbsp;&nbsp;&nbsp;$"a={a}, b={b} ... n={n}" // $ prefix BUT NO positional args  </code><br>
