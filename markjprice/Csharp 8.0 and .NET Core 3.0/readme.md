@@ -134,7 +134,8 @@
 			<td></td>
 			<td></td>
 			<td><b>byte</b> Represents unsigned integers with values from 0 to 255</td>
-		</tr>		<tr>
+		</tr>
+		<tr>
 			<td></td>
 			<td>real</td>
 			<td></td>
@@ -219,10 +220,10 @@
 		<code>dotnet new xunit</code> Create and navigate to the new subfolder (hint: name the folder "test subject class name here"UnitTests).
 		Add a ProjectReference in the new .csproj.  Hint: Rename UnitTest1.cs created by the template to something more meaningful.<br>
 	</li>
+		<img src="https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/-test%20subject%20class%20name%20here-UnitTests.csproj.png" alt="..." align="center">	
 	<li>
 		<code>dotnet build</code> Look for a clean build. This compiles <u>both</u> this new class and also dependency projects listed in the ProjectReference.<br>
 	</li> 
-	<img src="https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/-test%20subject%20class%20name%20here-UnitTests.csproj.png" alt="..." align="center">	
 	<li>
 		<code>dotnet test</code> After writing unit tests, run the unit tests and see the results. A will-written unit test will have three parts.<br>
 		<ol>
@@ -237,7 +238,7 @@
 			</li>
 		</ol>
 	</li>
-	<img src="https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/-test%20subject%20class%20name%20here-UnitTests.png" alt="..." align="center">
+		<img src="https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/-test%20subject%20class%20name%20here-UnitTests.png" alt="..." align="center">
 </ul>
 <h2>Chapter 05 Building Your Own Types with OOP</h2>
 Class library assemblies group "types" together into easily deployable units (DLL). To write reusable code, you should put it in a class library assembly, just like Microsoft does. Referencing an assembly:
