@@ -60,33 +60,33 @@
 		alignment: +n right align minimum n digits, -n left align min. n digits<br>
 		Formatting using interpolated strings:<br>
 		<code>
-			// examples<br>
-			WriteLine($"{"long", -8}{sizeof(long), -2:D}{long.MinValue, 30}{long.MaxValue, 30}");<br>
-			WriteLine($"{"float", -8}{sizeof(float), -2:D}{float.MinValue, 30:E7}{float.MaxValue, 30:E7}");<br>
-			// output<br>
-			long    8           -9223372036854775808           9223372036854775807<br>
-			float   4                -3.4028235E+038                3.4028235E+038<br>
+			// examples  
+			WriteLine($"{"long", -8}{sizeof(long), -2:D}{long.MinValue, 30}{long.MaxValue, 30}");  
+			WriteLine($"{"float", -8}{sizeof(float), -2:D}{float.MinValue, 30:E7}{float.MaxValue, 30:E7}");  
+			// output  
+			long    8           -9223372036854775808           9223372036854775807  
+			float   4                -3.4028235E+038                3.4028235E+038  
 		</code>
 	</li>
 	<li>
 		Two ways to use formatted strings<br>
 		<code>
-			int a=1,b=2,n=999;<br>
-			// formatting using numbered positional arguments<br>
-			WriteLine(<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;format: "a={0}, b={1} ... n={2}", // NO $ prefix on the format string!<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;arg0: a,<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;arg1: b,<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;// ...<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;argn: n<br>
-			);<br>
-			// formatting using interpolated strings<br>
-			WriteLine(<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;$"a={a}, b={b} ... n={n}" // $ prefix BUT NO positional args<br>
-			);<br>
-			// output<br>
-			//  a=1, b=2 ... n=999<br>
-			//  a=1, b=2 ... n=999
+			int a=1,b=2,n=999;  
+			// formatting using numbered positional arguments  
+			WriteLine(  
+			&nbsp;&nbsp;&nbsp;&nbsp;format: "a={0}, b={1} ... n={2}", // NO $ prefix on the format string!  
+			&nbsp;&nbsp;&nbsp;&nbsp;arg0: a,  
+			&nbsp;&nbsp;&nbsp;&nbsp;arg1: b,  
+			&nbsp;&nbsp;&nbsp;&nbsp;// ...  
+			&nbsp;&nbsp;&nbsp;&nbsp;argn: n  
+			);  
+			// formatting using interpolated strings  
+			WriteLine(  
+			&nbsp;&nbsp;&nbsp;&nbsp;$"a={a}, b={b} ... n={n}" // $ prefix BUT NO positional args  
+			);  
+			// output  
+			//  a=1, b=2 ... n=999  
+			//  a=1, b=2 ... n=999  
 		</code>
 	</li>
 	<li>
