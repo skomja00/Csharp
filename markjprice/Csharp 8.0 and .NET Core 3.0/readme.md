@@ -91,7 +91,7 @@
 	</li>
 	<li>
 		Working with variables.
-		<table border="1">
+		<table>
 		<tr>
 		  <td colspan="3" align="center">Working with variables</td>
 		</tr>
