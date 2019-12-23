@@ -35,23 +35,7 @@ namespace Packt.Shared
         {
             return (Name: "Apples", Number: 5);
         }
-        public void WriteToConsole() 
-        {
-            System.Console.WriteLine(
-                format: "{0}\n\tis a {3} born {4} on {1:ddd, d MMMM yyyy}\n\tAncientWonder(s) is {2}.",
-                this.Name,
-                this.DateOfBirth,
-                this.BucketList,
-                Species,
-                HomePlanet);
-            for (int child = 0; child < this.Children.Count; child++)
-            {
-                System.Console.WriteLine(
-                    format: "\tchild {0} is {1}",
-                    child + 1,
-                    this.Children[child].Name);
-            }
-        }
+
         public string OptionalParameters(
             string command = "Run!",
             double number = 0.0,
@@ -74,14 +58,13 @@ namespace Packt.Shared
             y++;
             z++;
         }
-                public string FavoriteIceCream { get; set; } // auto-syntax
-
-        private string favoritePrimaryColor;
+        public string FavoriteIceCream { get; set; } // auto-syntax
 
         // a property defined using C# 1.0 - 5.0 syntax
         public string Origin
         {
-            get{
+            get
+            {
                 return $"{Name} was born on {HomePlanet}";
             }
         }
@@ -92,6 +75,7 @@ namespace Packt.Shared
 
         
         // settable properties
+        private string favoritePrimaryColor;
         public string FavoritePrimaryColor 
         {
             get 
