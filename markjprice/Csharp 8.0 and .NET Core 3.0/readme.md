@@ -2,50 +2,49 @@
 <html>
 <head>
 <style>
-.center {
+h2 
+{
   text-align: center;
-  border: 3px solid green;
+  border: 3px solid LightGray;
 }
-.code {
-  text-align: center;
-  border: 3px solid green;
+code
+{
+  background-color: LightGray;
 }
 </style>
 </head>
 <body>
-<! ––-------------------------------------------------------->
-<div class="center">
-  <b>Chapter 01 Hello, C#! Welcome, .NET!</b>
-</div>
-<b>Note:</b><br>
+<! ––------------------------------------------------------ -->
+<h2>  <b>Chapter 01 Hello, C#! Welcome, .NET!</h2>
+<b>Note:</b> 
 A programmer can use different languages, for example, C# and F#, to write applications that run on .NET Core. <br>Regardless of source language all .NET applications use IL code for their instructions stored in an assembly. <br> The compiler used by the _dotnet_ CLI tool converts your source code into <b>Intermediate Language (IL)</b> code and stores the IL in an assembly (a DLL or EXE file). IL code statements are like assembly language instructions, which are executed by .NET Core's virtrual machine, known as CoreCLR <b>Common Language Runtime (CLR)</b>.
 <ol>
 	<li>At runtime, the CLR loads the IL, </li>
 	<li><b>just-in-time (JIT)</b> compiles it into native CPU instructions, </li>
 	<li>and then they are executed by the CPU on that machine.</li>
 </ol>
-<b>JIT:</b>The benefit of <b>just-in-time (JIT)</b> is the same code runs everywhere because of the 2nd CLR compile process.<br>
-<b>AoT:</b>.NET Native compiles C# code to native CPU instructions <b>ahead-of-time (AoT)</b> rather than using the CLR to compile IL code at runtime. This improves execution speed and reduces the memory footprint for applications because the native code is generated at build time and then deployed instead of the IL code. 
+<ul>
+	<li>
+		<b>JIT:</b> The benefit of <b>just-in-time (JIT)</b> is the same code runs everywhere because of the 2nd CLR compile process.<br>
+	</li>
+	<li>
+		<b>AoT:</b> .NET Native compiles C# code to native CPU instructions <b>ahead-of-time (AoT)</b> rather than using the CLR to compile IL code at runtime. This improves execution speed and reduces the memory footprint for applications because the native code is generated at build time and then deployed instead of the IL code.
+	</li>
+</ul>
 <br>
 ![Homemade IL UML diagram](https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/understanding%20intermediate%20language.png)<br>
 <br>
-<br><br><b>Note:</b><br>
+<br><br><b>Note:</b>
 Both the .NET Core and the .NET Framework have strengths and weaknesses because they are all designed for diferent scenarios. As of 2019 ".NET Standard 2.0" branched into three .NET platforms
 <ol>
 	<li>.NET Core: for cross-platform and new apps.
 	<li>.NET Framework: for legacy apps.
 	<li>Xamarin: for mobile apps.
 </ol>
-<br>
-<br>
-<br>
-<br>
-<br>
-<! ––-------------------------------------------------------->
-<div class="center">
-  <b>Chapter 02 Speaking C#</b>
-</div>
-<b>Note:</b><br>
+
+<! ––------------------------------------------------------ -->
+<h2>Chapter 02 Speaking C#</h2>
+<b>Note:</b> 
 Steps to create new app.
 <ol>
 	<li>Create folder<br>
@@ -56,7 +55,7 @@ Steps to create new app.
 </ol>
 <br>
 <br>
-<b>Note:</b><br>
+<b>Note:</b> 
 Formatting using numbered positional arguments:<br>
 <code>
 { index [ , alignment ] [ : formatString ] }<br>
@@ -88,10 +87,10 @@ int a=1,b=2,n=999;<br>
 // formatting using numbered positional arguments<br>
 WriteLine(<br>
 &nbsp;&nbsp;&nbsp;&nbsp;format: "a={0}, b={1} ... n={2}", // NO $ prefix on the format string!<br>
-&nbsp;&nbsp;&nbsp;&nbsp;a,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;b,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;arg0: a,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;arg1: b,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;// ...<br>
-&nbsp;&nbsp;&nbsp;&nbsp;n<br>
+&nbsp;&nbsp;&nbsp;&nbsp;argn: n<br>
 );<br>
 // formatting using interpolated strings<br>
 WriteLine(<br>
@@ -104,7 +103,7 @@ WriteLine(<br>
 <br>
 <br>
 <b>Note:</b>
-<table>
+<table border="1">
 <tr>
   <td colspan="3">Working with variables</td>
 </tr>
@@ -147,8 +146,7 @@ WriteLine(<br>
     <td></td>
     <td></td>
     <td><b>byte</b> Represents unsigned integers with values from 0 to 255</td>
-</tr>
-<tr>
+</tr><tr>
     <td></td>
     <td>real</td>
     <td></td>
@@ -189,15 +187,8 @@ WriteLine(<br>
     <td>C# 4.0 </td>
 </tr>
 </table>
-<br>
-<br>
-<br>
-<br>
-<br>
-<! ––-------------------------------------------------------->
-<div class="center">
-  <b>Chapter 03 Controlling Flow and Converting Types</b>
-</div><br>
+<! ––------------------------------------------------------ -->
+<h2>Chapter 03 Controlling Flow and Converting Types</h2>
 <b>Note: Jump Statements</b><br>
 <code>
 break // break statement terminates the closest enclosing loop or switch 
@@ -226,18 +217,12 @@ foreach
 	<li>The returned object must have a read-only property named Current
 	<li>The MoveNext() method must return true if more items or false otherwise
 </ol>
-<br>
-<br>
-<br>
-<br>
-<! ––-------------------------------------------------------->
-<div class="center">
-  <b>Chapter 04 Writing, Debugging, and Testing Functions</b>
-</div><br>
+<! ––------------------------------------------------------ -->
+<h2>Chapter 04 Writing, Debugging, and Testing Functions</h2>
 <b>Note: xUnit.net unit testing</b><br>
-<code>dotnet new xunit</code> Create and navigate to new subfolder (hint: name the folder "test subject class name here"UnitTests).
+<code>dotnet new xunit</code> Create and navigate to new subfolder (hint: name the folder "test subject class name here"UnitTests), and enter this  command in TERMINAL.  
 <ol>
-    <li>Add a ProjectReference in the new .csproj configuration test subject file.  Note: may want to rename UnitTest1.cs created by the template to something more meaningful.<br>
+    <li>Add a ProjectReference in the new .csproj configuration test subject class.  Note: may want to rename UnitTest1.cs created by the template to something more meaningful.<br>
         <img src="https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/-test%20subject%20class%20name%20here-UnitTests.csproj.png" alt="..." align="left"></li>
 	<li><code>dotnet build</code> Look for a clean build.<br>
         <img src="https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/-test%20subject%20class%20name%20here-UnitTests.png" alt="..." align="left"></li> 
@@ -248,12 +233,44 @@ foreach
     <li><b>Act:</b> This part will execute the unit that you are testing (i.e. calling the method that we want to test).</li>
     <li><b>Assert:</b> This part will make one or more assertions about the output. An assertion is a belief that if not true indicates a failed test. For example, when adding 2 and 2 we would expect the result would be 4.</li>
 </ol>
+<! ––------------------------------------------------------ -->
+<h2>Chapter 05 Building Your Own Types with OOP</h2>
+Class library assemblies group "types" together into easily deployable units (DLL). To write reusable code, you should put it in a class library assembly, just like Microsoft does. Referencing an assembly:
+<ol>
+    <li>Update your new *.csproj with a reference to the class library assembly <code>&lt;ItemGroup&gt;&lt;ProjectReference Include=".../path/file"</code></li>
+    <li>Import the namespace into your new app to use a type from the class library assembly (i.e. <code>using Packt.Shared;</code>)</li>
+    <li><code>dotnet build</code> to compile <u>both</u> the new app and its dependency projects.</li>
+</ol>
+<! ––------------------------------------------------------ -->
+<h2>Chapter 06 Implementing Interfaces and Inheriting Classes</h2>
+<b>Note: Simplifying methods</b>
+	<ul>
+		<li><b><u>"instance"</u></b> methods are actions that an object does to itself;</li>
+		<li><b><u>static</u></b> methods are actions the type does.</li>
+	</ul>
+<b>Note: Raising and handling events</b> Events are built on delegates.<br>
+<ul>
+	<li><b><u>Methods</u></b> are actions that an object can perform, either on itself or to related objects.</li>
 
-
-
-
-
-
+	<li><b><u>Events</u></b> are actions that happen to an object. Another way of thinking of event is that they provide a way of exchanging messages between two objects.</li>
+</ul>
+<table border="1">
+	<tr>
+	  <td colspan="2" align="center">Raising and handling events</td>
+	</tr>
+	<tr>
+	  <td>in the class.cs</td>
+	  <td>in the program.cs</td>
+	</tr>
+	<tr>
+	  <td>public EventHandler DelegateMethod;</td>
+	  <td>someobject.DelegateMethod = "Object_Event" (i.e. method name);</u></td>
+	</tr>
+	<tr>
+	  <td>call DelegateMethod(this, EventArgs.Empty);</td>
+	  <td>private static void "Object_Event"(Object sender, EventArgs e)</td>
+	</tr>
+</table>
 
 </body>
 </html>
