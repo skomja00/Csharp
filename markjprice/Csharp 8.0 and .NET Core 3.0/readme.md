@@ -238,7 +238,7 @@
 			</li>
 		</ol>
 	</li>
-		<img src="https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/-test%20subject%20class%20name%20here-UnitTests.png" alt="..." align="center">
+		<img src="https://github.com/skomja00/Csharp/blob/master/markjprice/Csharp%208.0%20and%20.NET%20Core%203.0/-test%20subject%20class%20name%20here-UnitTests-dotnet-test-results.png" alt="..." align="center">
 </ul>
 <h2>Chapter 05 Building Your Own Types with OOP</h2>
 Class library assemblies group "types" together into easily deployable units (DLL). To write reusable code, you should put it in a class library assembly, just like Microsoft does. Referencing an assembly:
