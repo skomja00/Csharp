@@ -58,35 +58,32 @@
 		where<br>
 		index: number of argument starting at 0<br>
 		alignment: +n right align minimum n digits, -n left align min. n digits<br>
-		Formatting using interpolated strings:<br>
-		<code>
-			// examples  
-			WriteLine($"{"long", -8}{sizeof(long), -2:D}{long.MinValue, 30}{long.MaxValue, 30}");  
-			WriteLine($"{"float", -8}{sizeof(float), -2:D}{float.MinValue, 30:E7}{float.MaxValue, 30:E7}");  
-			// output  
-			long    8           -9223372036854775808           9223372036854775807  
-			float   4                -3.4028235E+038                3.4028235E+038  
-		</code>
+		Formatting using interpolated strings:
+			<code><br>// examples  </code><br>
+			<code>WriteLine($"{"long", -8}{sizeof(long), -2:D}{long.MinValue, 30}{long.MaxValue, 30}"); </code><br> 
+			<code>WriteLine($"{"float", -8}{sizeof(float), -2:D}{float.MinValue, 30:E7}{float.MaxValue, 30:E7}");  </code><br>
+			<code>// output  </code><br>
+			<code>long    8           -9223372036854775808           9223372036854775807  </code><br>
+			<code>float   4                -3.4028235E+038                3.4028235E+038  </code><br>
 	</li>
 	<li>
 		Two ways to use formatted strings<br>
-		<code>
-			int a=1,b=2,n=999;  
-			// formatting using numbered positional arguments  
-			WriteLine(  
-			&nbsp;&nbsp;&nbsp;&nbsp;format: "a={0}, b={1} ... n={2}", // NO $ prefix on the format string!  
-			&nbsp;&nbsp;&nbsp;&nbsp;arg0: a,  
-			&nbsp;&nbsp;&nbsp;&nbsp;arg1: b,  
-			&nbsp;&nbsp;&nbsp;&nbsp;// ...  
-			&nbsp;&nbsp;&nbsp;&nbsp;argn: n  
-			);  
-			// formatting using interpolated strings  
-			WriteLine(  
-			&nbsp;&nbsp;&nbsp;&nbsp;$"a={a}, b={b} ... n={n}" // $ prefix BUT NO positional args  
-			);  
-			// output  
-			//  a=1, b=2 ... n=999  
-			//  a=1, b=2 ... n=999  
+			<code>int a=1,b=2,n=999;</code><br>
+			<code>// formatting using numbered positional arguments  </code><br>
+			<code>WriteLine(  </code><br>
+			<code>&nbsp;&nbsp;&nbsp;&nbsp;format: "a={0}, b={1} ... n={2}", // NO $ prefix on the format string!</code><br>  
+			<code>&nbsp;&nbsp;&nbsp;&nbsp;arg0: a,  </code><br>
+			<code>&nbsp;&nbsp;&nbsp;&nbsp;arg1: b,  </code><br>
+			<code>&nbsp;&nbsp;&nbsp;&nbsp;// ...  </code><br>
+			<code>&nbsp;&nbsp;&nbsp;&nbsp;argn: n  </code><br>
+			<code>);  </code><br>
+			<code>// formatting using interpolated strings  </code><br>
+			<code>WriteLine(  </code><br>
+			<code>&nbsp;&nbsp;&nbsp;&nbsp;$"a={a}, b={b} ... n={n}" // $ prefix BUT NO positional args  </code><br>
+			<code>);  </code><br>
+			<code>// output  </code><br>
+			<code>//  a=1, b=2 ... n=999  </code><br>
+			<code>//  a=1, b=2 ... n=999  </code><br>
 		</code>
 	</li>
 	<li>
@@ -253,7 +250,6 @@ Class library assemblies group "types" together into easily deployable units (DL
 		<code>dotnet build</code> to compile <u>both</u> the new app and its dependency projects.
 	</li>
 </ol>
-<! ––------------------------------------------------------ -->
 <h2>Chapter 06 Implementing Interfaces and Inheriting Classes</h2>
 <ul>
 	<li>
