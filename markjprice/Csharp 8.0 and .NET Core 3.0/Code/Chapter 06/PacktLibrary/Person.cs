@@ -37,6 +37,11 @@ namespace Packt.Shared
                 DateOfBirth
             );
         }
+        public override string ToString()
+        {
+            return $"{Name} is a {base.ToString()}";
+        }
+        
         // operator to "multiply"
         public static Person operator *(Person p1, Person p2)
         {
@@ -60,6 +65,21 @@ namespace Packt.Shared
                 return localNumber * localFactorial(localNumber - 1);
             }
         }
+
+        // inheriting exceptions
+        public void TimeTravel(DateTime when)
+        {
+            if (when <= DateOfBirth)
+            {
+                throw new PersonException("you can't travel back in time before your birth!");
+            }
+            else
+            {
+                WriteLine($"Welcom to {when:yyyy}!");
+            }
+        }
+
+
 
         // defining and handling delegates
         // event delegate field
